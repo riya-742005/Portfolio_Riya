@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Upadhyay - Full Stack Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">✨</span>
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">Riya Upadhyay</span>
+                    <span class="logo-subtitle">Designer & Developer</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link download-resume" onclick="downloadResume(event)">
+                    <i class="fas fa-download"></i> Resume
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Available for Projects
+                    </div>
+                    <h1 class="hero-title">Crafting Digital Experiences</h1>
+                    <h2 class="hero-role">Full Stack Developer & UI/UX Designer</h2>
+                    <p class="hero-description">
+                        Building stunning web applications with React, Node.js, and AWS. Passionate about creating beautiful, functional designs that solve real problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="javascript:downloadResume()" class="btn btn-tertiary">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/riya-upadhyay-470127315/" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/riya-742005/" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.credly.com/users/riya-upadhyay.3b72cadb/badges#credly" target="_blank" class="social-icon" title="Credly">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="mailto:rupadhyay7405@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-wrapper">
+                        <div class="gradient-blob blob-1"></div>
+                        <div class="gradient-blob blob-2"></div>
+                        <div class="hero-image-container">
+                            <div class="image-frame">
+                                <img src="./public/passport.jpg" alt="Riya Upadhyay">
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <span class="badge-number">5+</span>
+                            <span class="badge-label">Projects</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <span class="badge-number">7.72</span>
+                            <span class="badge-label">CGPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Designer & Developer from India</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-main">
+                    <div class="about-content">
+                        <h3>Creative Developer & UI Designer</h3>
+                        <p>
+                            I'm a Computer Engineering student with a passion for creating beautiful, functional digital products. 
+                            With expertise in both frontend design and backend development, I bridge the gap between aesthetics and functionality.
+                        </p>
+                        <p>
+                            My work spans full-stack development, UI/UX design, and cloud solutions. I believe in the power of clean code, 
+                            intuitive interfaces, and collaborative problem-solving.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Full Stack Development</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>UI/UX Design</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Cloud Computing (AWS)</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Responsive Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Working on projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Commitment</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Timeline -->
+            <div class="education-section">
+                <h3 class="subsection-title">Education Journey</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>B.Tech in Computer Engineering</h4>
+                            <p class="timeline-org">Mumbai University, A.P. Shah Institute of Technology</p>
+                            <p class="timeline-meta">CGPA: 7.72 | 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Class 12th (HSC)</h4>
+                            <p class="timeline-org">Lakshya Prep High School and Jr. College, Thane</p>
+                            <p class="timeline-meta">73.4% | 2020</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Class 10th (SSC)</h4>
+                            <p class="timeline-org">Sri Ma Vidyalaya CBSE School, Thane</p>
+                            <p class="timeline-meta">80.6%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My Career Journey</p>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3>Java Development Intern</h3>
+                            <span class="exp-duration">Jun 2025 – Jul 2025</span>
+                        </div>
+                        <p class="exp-company">Cognifyz Technologies</p>
+                        <ul class="exp-list">
+                            <li>Designed and implemented scalable Java applications using JDBC and OOP concepts</li>
+                            <li>Developed robust modules with comprehensive unit testing</li>
+                            <li>Collaborated with senior developers on enterprise-scale projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3>Web Development Intern</h3>
+                            <span class="exp-duration">Aug 2025 – Sep 2025</span>
+                        </div>
+                        <p class="exp-company">CodeClause Pvt. Ltd.</p>
+                        <ul class="exp-list">
+                            <li>Enhanced application features using modern web technologies</li>
+                            <li>Participated in end-to-end project development lifecycle</li>
+                            <li>Worked collaboratively in agile development environment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing My Best Work</p>
+            </div>
+
+            <div class="projects-showcase">
+                <!-- Project 1 -->
+                <div class="project-card large">
+                    <div class="project-image">
+                        <img src="./public/smartderm.jpg" alt="SmartDerm(ongoing)">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Project">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tag">AI & ML</div>
+                        <h3>SmartDerm - Talent Prediction</h3>
+                        <p>
+                            Automated fingerprint analysis system using CNNs with 90%+ accuracy. 
+                            Developed secure Django web app with personalized PDF reports for talent prediction and career guidance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">CNN</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">OpenCV</span>
+                        </div>
+                        <p class="project-type">Group Project</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card large">
+                    <div class="project-image">
+                        <img src="./public/Buildpro.jpg" alt="BuildPro">
+                        <div class="project-overlay">
+                            <a href="https://github.com/riya-742005/BuildPro" class="project-link" title="View Project">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tag">Full Stack</div>
+                        <h3>BuildPro - GitHub Code Analyzer</h3>
+                        <p>
+                            Full-stack platform generating AI-driven project ideas, tracking milestones and commits with auto-issued certificates. 
+                            Boosted developer productivity by 25%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React.js</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">GitHub API</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">OpenAI</span>
+                        </div>
+                        <p class="project-type">Solo Project</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card large">
+                    <div class="project-image">
+                        <img src="./public/interviewnest.jpg" alt="Interview-Nest">
+                        <div class="project-overlay">
+                            <a href="https://github.com/riya-742005/Interview-nest-" class="project-link" title="View Project">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tag">Web App</div>
+                        <h3>Interview-Nest - Interview Platform</h3>
+                        <p>
+                            Web-based interview platform featuring real-time video, integrated code compiler, collaborative whiteboard, 
+                            and quiz modules. Improved interview efficiency by 30%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">PHP</span>
+                            <span class="tech-badge">WebRTC</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">XAMPP</span>
+                        </div>
+                        <p class="project-type">Group Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I Work With</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-column">
+                    <h4 class="skill-category-title">Frontend</h4>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">React.js</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript/ES6+</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 88%"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">CSS/SASS</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h4 class="skill-category-title">Backend</h4>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">PHP</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h4 class="skill-category-title">Databases & Tools</h4>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">MySQL/MongoDB</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Git/Version Control</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">AWS</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 87%"></div>
+                            </div>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Linux/DevOps</div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications-grid">
+                <h3 class="subsection-title">Certifications</h3>
+                <div class="cert-items">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>AWS Academy Graduate - Cloud Foundations</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Oracle Java Programming Certified</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Fortinet Product Awareness Certified</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>AWS Data Engineering Graduate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Collaborate</h2>
+                <p class="section-subtitle">Get in touch for new projects or opportunities</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Ready to Start Something Amazing?</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                    </p>
+
+                    <div class="contact-items">
+                        <a href="mailto:rupadhyay7405@gmail.com" class="contact-item-link">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>rupadhyay7405@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+919867579004" class="contact-item-link">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98675 79004</p>
+                            </div>
+                        </a>
+                        <div class="contact-item-link">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mumbai, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/riya-upadhyay-470127315/" target="_blank" class="social-card">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/riya-742005/" target="_blank" class="social-card">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Riya Upadhyay</h3>
+                    <p>Full Stack Developer & UI/UX Designer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/riya-upadhyay-470127315/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/riya-742005/" target="_blank"><i class="fab fa-github"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Riya Upadhyay. All rights reserved. | Designed & Developed with <span class="heart">❤️</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
