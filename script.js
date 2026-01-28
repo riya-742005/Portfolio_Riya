@@ -3,7 +3,7 @@ function downloadResume(e) {
     if (e) e.preventDefault();
     
     // Create a link to download from public folder
-    const resumePath = './public/RiyaUpadhyay_AI-1.pdf';
+    const resumePath = '/public/RiyaUpadhyay_AI-1.pdf';
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'RiyaUpadhyay_AI-1.pdf';
